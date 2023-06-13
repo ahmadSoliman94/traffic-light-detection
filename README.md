@@ -1,1 +1,1 @@
-# Traffic light detection using YoloV5
+# Traffic Lights detection using YoloV8
