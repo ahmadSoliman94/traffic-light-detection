@@ -1,28 +1,24 @@
 import cv2
-import torch
+import pandas as pd
 import numpy as np
+from ultralytics import YOLO
 
 
-model = torch.hub.load('ultralytics/yolov5', 'custom','./best.pt', force_reload=True)
+model = YOLO('./yolo_model.pt')
+
+
+cap=cv2.VideoCapture('./video.mp4')
 
 
 
-cap=cv2.VideoCapture('./videoplayback.mp4')
 
-
-while True:
-    ret,frame=cap.read()
-    if not ret:
-        break
-    #count += 1
-    #if count % 3 != 0:
-        #continue
-    frame=cv2.resize(frame,(1020,600))
-    results=model(frame)
-    frame = np.squeeze(results.render())
-    cv2.imshow("FRAME",frame)
-    if cv2.waitKey(1):
-        break
-
-cap.release()
+while (cap. isOpened()):
+    ret, frame= cap.read()
+    if ret:
+        res=model.predict(frame,conf=0.3)
+        res_plotted=res[0].plot()
+        cv2. imshow('frame', res_plotted)
+        if cv2.waitKey(20)& 0xFF== ord ('q'):
+            break
+cap. release()
 cv2.destroyAllWindows()
