@@ -2,6 +2,11 @@
 
 
 
+![1](./figs/video.gif)
+
+<br />
+
+
 ![1](./figs/confusion_matrix.png)
 
 <br />
