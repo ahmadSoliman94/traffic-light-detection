@@ -1,4 +1,4 @@
-# Traffic Lights detection using YoloV8
+# Traffic Lights detection using YOLOv8
 
 
 
