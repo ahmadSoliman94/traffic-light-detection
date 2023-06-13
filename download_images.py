@@ -1,8 +1,4 @@
-from simple_image_download import simple_image_download as simp
-
-# Instantiate the class
-response = simp.simple_image_download
-
-
-# Download images to the specified directory
-response().download('./Red traffic light', 500)
+from roboflow import Roboflow
+rf = Roboflow(api_key="X7Ytt18HEuVzPuvnY1cW")
+project = rf.workspace("wawan-pradana").project("cinta_v2")
+dataset = project.version(1).download("yolov8")

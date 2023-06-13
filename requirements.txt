@@ -1,1 +1,4 @@
-simple_image_download
+roboflow
+ultralytics
+streamlit
+torch>=2.0.0

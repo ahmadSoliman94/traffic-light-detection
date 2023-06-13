@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.4.0-122-generic-x86_64-with-glibc2.31",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-06-13T16:50:43.905558",
+    "startedAt": "2023-06-13T16:50:38.459741",
+    "docker": null,
+    "gpu": "NVIDIA RTX A4000",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "traffic-light-detection/train_model.ipynb",
+    "root": "/notebooks/traffic-light-detection",
+    "git": {
+        "remote": "https://github.com/ahmadSoliman94/traffic-light-detection.git",
+        "commit": "25e0060b36930ed5cf02101d78b5e3b911bd6db3"
+    },
+    "email": null,
+    "host": "nfkfcnkawp",
+    "username": "root",
+    "executable": "/usr/local/bin/python3"
+}
