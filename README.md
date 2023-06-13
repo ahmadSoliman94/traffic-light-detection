@@ -2,12 +2,11 @@
 
 
 
+![1]("./figs/confusion_matrix.png")
 
-<div style="display: flex; justify-content: center;">
-    <img src="./figs/confusion_matrix.png" alt="Image 1" style="width: 50%;">
-    <img src="./figs/results.png" alt="Image 2" style="width: 50%;">
-</div>
-<br/>
+<br />
+
+![2]("./figs/results.png")
 
 
 <div style="display: flex; justify-content: center;">
