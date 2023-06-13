@@ -1,25 +1,24 @@
 # Traffic Lights detection using YoloV8
 
-<p float="left">
-  <img src="./figs/confusion_matrix.png" width="100" />
-  <img src="./figs/results.png" width="100" /> 
-</p>
+
+
+
+<div style="display: flex; justify-content: center;">
+    <img src="./figs/confusion_matrix.png" alt="Image 1" style="width: 50%;">
+    <img src="./figs/results.png" alt="Image 2" style="width: 50%;">
+</div>
+<br/>
+
+
+<div style="display: flex; justify-content: center;">
+    <img src="./figs/val_batch1_labels.jpg" alt="Image 1" style="width: 50%;">
+    <img src="./figs/val_batch1_pred.jpg" alt="Image 2" style="width: 50%;">
+</div>
 
 <br/>
 
-<p float="left">
-  <img src="./figs/val_batch1_labels.png" width="50" />
-  <img src="./figs/val_batch1_pred.png" width="50" /> 
-</p>
 
-<br/>
-
-<p float="left">
-  <img src="./figs/val_batch1_labels.jpg" width="50" />
-  <img src="./figs/val_batch1_pred.jpg" width="50" /> 
-</p>
-
-<p float="left">
-  <img src="./figs/val_batch2_labels.jpg" width="50" />
-  <img src="./figs/val_batch2_pred.jpg" width="50" /> 
-</p>
+<div style="display: flex; justify-content: center;">
+    <img src="./figs/val_batch2_labels.jpg" alt="Image 1" style="width: 50%;">
+    <img src="./figs/val_batch2_pred.jpg" alt="Image 2" style="width: 50%;">
+</div>
