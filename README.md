@@ -2,7 +2,7 @@
 
 
 
-![1]("./figs/confusion_matrix.png")
+![1](./figs/confusion_matrix.png)
 
 <br />
 
@@ -13,9 +13,13 @@
 
 <br/>
 
+### __Label:__
 ![3](./figs/val_batch2_labels.jpg)
 
 <br />
 
+### __Predction:__
+
 ![55](./figs/val_batch2_pred.jpg)
+
 
